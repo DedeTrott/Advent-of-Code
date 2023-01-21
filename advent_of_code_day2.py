@@ -15,6 +15,7 @@ won = 6
 
 my_points = 0
 my_2_points = 0
+
 with open("ay.txt") as file:
     opponentInput = [i for i in file.read().splitlines()]
 
